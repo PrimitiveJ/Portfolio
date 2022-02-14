@@ -3,3 +3,79 @@
     margin:0;
     padding:0;
 }
+
+body {
+    background-color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#008000;
+}
+
+body h2 {
+  border-bottom:2px solid #008000 ;
+  font-size:larger;
+  text-align:center;
+}
+
+section {
+  padding:60px;
+}
+
+header {
+    padding: 20px 35px;
+    background-image:url(https://postimg.cc/Vds7cfvY);
+    background-size:cover;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color:#008000;
+  }
+
+  header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: #008000;
+  }
+
+  header a {
+    text-decoration: none;
+    color: #008000;
+  }
+
+  header a:hover {
+    color: rgb(121, 201, 121);
+  }
+
+  header nav {
+    margin: 7px 0;
+  }
+
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+
+  header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+  }
+
+  .profile-pic img {
+    max-height: 400px;
+    max-width: 400px;
+    border: 2px solid #008000;
+    position:relative;
+    left: 750px;
+  }
+
+  .about-me p {
+    line-height:1.7;
+    width:80%;
+    text-align:center;
+    margin:0 auto;
+    font-size:20px;
+  }
