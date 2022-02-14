@@ -12,7 +12,7 @@ body {
 
 body h2 {
   border-bottom:2px solid #008000 ;
-  font-size:larger;
+  font-size:x-large;
   text-align:center;
 }
 
@@ -28,7 +28,7 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     color:#008000;
-  }
+   }
 
   header h1 {
     font-weight: bold;
@@ -68,14 +68,63 @@ header {
     max-height: 400px;
     max-width: 400px;
     border: 2px solid #008000;
-    position:relative;
-    left: 750px;
+    display:flex;
+    justify-content: left;
+    flex-wrap: wrap;
   }
 
   .about-me p {
-    line-height:1.7;
+    line-height:2.7;
     width:80%;
     text-align:center;
     margin:0 auto;
     font-size:20px;
+    letter-spacing:5px;
+  }
+  
+  .project h3 {
+    border-bottom: 2px solid #008000;
+  }
+
+  .flex-containerProjects {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  footer {
+    display:flex;
+    flex-direction:column;
+    padding:60px;
+    font-size:xx-large;
+    border:1px dotted #008000; 
+  }
+
+  footer h2 {
+   border-bottom:5px transparent #008000;
+  }
+
+  .linktoresume {
+    display: flex;
+    flex-direction: column;
+    color:#008000;
+    font-style: italic;
+  }
+
+  .linktoresume a:hover {
+    color:#008000;
+  }
+
+  .contact-me {
+    display:flex;
+    justify-content: space-evenly;
+    font-size: larger;
+    padding-bottom: 0;
+  }
+
+  .flex-containerContact {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    font-size: larger;
   }
