@@ -167,5 +167,6 @@ header a:hover {
   display:flex;
   justify-content: space-evenly;
   background:rgba(0, 0, 0, 0.73);
+  flex-wrap:wrap;
 
 }
