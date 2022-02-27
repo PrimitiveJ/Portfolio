@@ -219,7 +219,7 @@ footer h2 {
   padding:0 120px;
 }
 
-media @media screen and (max-width: 768px) {
+ @media screen and (max-width: 768px) {
   
   body, nav, .contact-me {
       display:flex;
